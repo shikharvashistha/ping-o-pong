@@ -16,6 +16,9 @@ jobs:
     - name: Build
       working-directory: src/
       run: cargo build --verbose
+    - name: Benchmark
+      working-directory: src/
+      run: cargo bench
     - name: Run tests
       working-directory: src/
       run: cargo test --verbose

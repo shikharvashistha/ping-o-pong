@@ -1,2 +1,2 @@
 # pingOpong
-Ping Pong game
+Ping Pong game in piston and OpenGL.
